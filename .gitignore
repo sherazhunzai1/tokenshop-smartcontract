@@ -1,0 +1,35 @@
+# Hardhat artifacts
+artifacts/
+cache/
+coverage/
+coverage.json
+
+# Local Hardhat network
+node_modules/
+network/
+scripts/deploy.js
+
+# Compiled contracts
+src/types/artifacts/
+
+# Development environment
+.env
+.env.local
+.env.test
+.env.*.local
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+package.json.bak
+
+# Editor-related files
+.vscode/
+.idea/
+
+# macOS-specific files
+.DS_Store
+
+# Miscellaneous
+*.log
+*.swp
